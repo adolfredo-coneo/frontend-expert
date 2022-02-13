@@ -1,0 +1,31 @@
+Sign-Up Form
+
+Implement a sign-up form in HTML with the following six input fields, each with an appropriate label:
+  
+  <ol>
+    <li><b>Username</b>, a required text input field</li>
+    <li><b>Password</b>, a required password input field</li>
+    <li><b>Email</b>, a required email input field</li>
+    <li><b>Phone Number</b>, an optional telephone input field</li>
+    <li><b>Date of Birth</b>, an optional date-picker input field</li>
+    <li><b>I agree to the TOS</b>, a required checkbox input field</li>
+  </ol>
+
+  <p>
+    There should also be a <b>Sign Up</b> button at the bottom of the form. When
+    clicked on (and if all required fields have been filled), the button should
+    submit the form using default browser behavior.
+  </p>
+
+  <p>
+    Note that submitting the form in your <b>Browser Output</b> or in the
+    <b>Expected Output</b> will result in a broken page being displayed; this is
+    normal behavior, since these outputs are rendered in iframes.
+  </p>
+
+  <p>
+    You only need to write the HTML that would go inside of a document's
+    <span>&lt;body&gt;</span> tag; no need to worry about the
+    <span>&lt;head&gt;</span> tag, the <span>&lt;html&gt;</span> tag, or the
+    <span>&lt;!DOCTYPE&gt;</span> declaration.
+  </p>
