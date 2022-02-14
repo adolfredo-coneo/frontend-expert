@@ -1,0 +1,68 @@
+This Binding
+
+<div class="html">
+  <p>
+    Without calling <span>Function.prototype.call</span>,
+    <span>Function.prototype.apply</span> or
+    <span>Function.prototype.bind</span>, implement the following three similar
+    functions on the <span>Function</span> prototype:
+  </p>
+  <ol>
+    <li>
+      <p><span>myCall(thisContext, ...args)</span></p>
+      <p>
+        <span>myCall</span> should call the original function with
+        <span>thisContext</span> bound to the function's
+        <span>this</span> keyword, passing all of the remaining
+        <span>args</span> as individual arguments to the function.
+      </p>
+      <p style="margin: 0 0 10px 0">
+        The return value of the original function should be returned by
+        <span>myCall</span>.
+      </p>
+    </li>
+    <li>
+      <p><span>myApply(thisContext, args)</span></p>
+      <p>
+        <span>myApply</span> should call the original function with
+        <span>thisContext</span> bound to the function's
+        <span>this</span> keyword, passing all of the values in the
+        <span>args</span> array as individual arguments to the function.
+      </p>
+      <p style="margin: 0 0 10px 0">
+        The return value of the original function should be returned by
+        <span>myApply</span>.
+      </p>
+    </li>
+    <li>
+      <p><span>myBind(thisContext, ...args)</span></p>
+      <p>
+        <span>myBind</span> should return a new function that calls the original
+        function with <span>thisContext</span> bound to the function's
+        <span>this</span> keyword, passing all of the remaining
+        <span>args</span> as individual arguments to the function. The new
+        function should accept optional arguments, which should also be passed
+        to the original function, after the <span>args</span> originally passed
+        to <span>myBind</span>.
+      </p>
+      <p style="margin: 0 0 10px 0">
+        The new function should return the return value of the original
+        function.
+      </p>
+    </li>
+  </ol>
+  <p>
+    You can assume that the <span>thisContext</span> argument passed to each
+    function will always be an object. You can also assume that the original
+    function will be declared using standard function syntax (i.e., it won't be
+    an arrow function).
+  </p>
+  <p>
+    You should minimize side-effects as much as possible, ensuring that
+    <span>thisContext</span> remains unchanged after calls to these functions
+    and ensuring that standard iteration through properties on
+    <span>thisContext</span> works normally.
+  </p>
+  <p></p>
+  <h3>Sample Usage</h3>
+</div>
